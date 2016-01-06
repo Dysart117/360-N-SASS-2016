@@ -3,8 +3,8 @@ using System.Collections;
 
 public class SimpleMovement : MonoBehaviour
 {
-    [SerializeField]
-    float Speed = 5f;
+    
+    public float Speed = 5f;
 
 	void Update ()
     {
