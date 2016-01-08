@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D kMovement;
     [SerializeField] float kSpeed;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
         kMovement = gameObject.GetComponent<Rigidbody2D>();
 	}
@@ -18,18 +18,22 @@ public class PlayerMovement : MonoBehaviour {
 	    if (Input.GetKey("w"))
         {
             kMovement.AddForce(new Vector2(0, kSpeed));
+            
         }
         if (Input.GetKey("s"))
         {
             kMovement.AddForce(new Vector2(0, -kSpeed));
+            
         }
         if (Input.GetKey("d"))
         {
             kMovement.AddForce(new Vector2(kSpeed, 0));
+            
         }
         if (Input.GetKey("a"))
         {
             kMovement.AddForce(new Vector2(-kSpeed, 0));
+            
         }
         if (kMovement.velocity.y >= kSpeed)
         {
@@ -47,5 +51,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             kMovement.velocity = new Vector2(-kSpeed, kMovement.velocity.y);
         }
+
+        gameObject.transform.Rotate(new Vector3(0,0,1));
     }
 }
