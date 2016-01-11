@@ -9,7 +9,7 @@ public class EnemyAI : MonoBehaviour {
 	
 	     void Start () {
 
-		gameObject.tag = "Enemy";
+		gameObject.tag = "Enemy";//
 	}
 	
 	void Update(){
