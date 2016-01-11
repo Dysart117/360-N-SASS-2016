@@ -6,7 +6,7 @@ public class Score : MonoBehaviour
 {
 
     [SerializeField]
-    SimpleMovement speed;
+    PlayerMovement speed;
 
     [SerializeField]
     Text scoreText;
@@ -41,7 +41,7 @@ public class Score : MonoBehaviour
 
         if (currentCombo == 5f)
         {
-            speed.Speed = 10f;
+            speed.kSpeed= 10f;
         }
     }
 }
