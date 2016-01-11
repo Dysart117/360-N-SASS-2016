@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
 
     Rigidbody2D kMovement;
-    [SerializeField] float kSpeed;
+    public float kSpeed;
 
     // Use this for initialization
     void Start ()

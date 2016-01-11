@@ -45,28 +45,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Jacob&apos;s Folder\AddingScore.cs" />
+     <Compile Include="Assets\Jacob&apos;s Folder\Health.cs" />
+     <Compile Include="Assets\Jacob&apos;s Folder\Score.cs" />
      <Compile Include="Assets\Stan.Lee\Guns\Bullet.cs" />
      <Compile Include="Assets\Stan.Lee\Guns\GunFire.cs" />
      <Compile Include="Assets\Stan.Lee\Guns\NewObjectpoolerScript.cs" />
      <Compile Include="Assets\Stan.Lee\Ship Movement\PlayerMovement.cs" />
-<<<<<<< HEAD
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
-=======
-     <Compile Include="Assets\Jacob&apos;s Folder\AddingScore.cs" />
-     <Compile Include="Assets\Jacob&apos;s Folder\Health.cs" />
-     <Compile Include="Assets\Jacob&apos;s Folder\Score.cs" />
-     <Compile Include="Assets\Jacob&apos;s Folder\SimpleMovement.cs" />
->>>>>>> origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
