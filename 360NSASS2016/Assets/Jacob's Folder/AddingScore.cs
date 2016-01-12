@@ -36,7 +36,7 @@ public class AddingScore : MonoBehaviour
     [SerializeField]
     GameObject H100;
 
-    public Health healthScript;
+    public PlayerHealth healthScript;
 
 
     void OnTriggerEnter2D(Collider2D other)

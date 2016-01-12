@@ -45,19 +45,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Jacob&apos;s Folder\AddingScore.cs" />
-     <Compile Include="Assets\Jacob&apos;s Folder\Health.cs" />
-     <Compile Include="Assets\Jacob&apos;s Folder\Score.cs" />
-     <Compile Include="Assets\Stan.Lee\Guns\Bullet.cs" />
-     <Compile Include="Assets\Stan.Lee\Guns\GunFire.cs" />
-     <Compile Include="Assets\Stan.Lee\Guns\NewObjectpoolerScript.cs" />
-     <Compile Include="Assets\Stan.Lee\Ship Movement\PlayerMovement.cs" />
-
      <Compile Include="Assets\Alex\Scripts\Player_Enemy\EnemyAI.cs" />
      <Compile Include="Assets\Alex\Scripts\Player_Enemy\Health.cs" />
      <Compile Include="Assets\Alex\Scripts\Player_Enemy\Player2D.cs" />
      <Compile Include="Assets\Alex\Scripts\Spawning\AISpawn.cs" />
      <Compile Include="Assets\Alex\Scripts\Spawning\Spawner.cs" />
+     <Compile Include="Assets\Game\CameraFollowScript.cs" />
+     <Compile Include="Assets\Jacob&apos;s Folder\AddingScore.cs" />
+     <Compile Include="Assets\Jacob&apos;s Folder\PlayerHealth.cs" />
+     <Compile Include="Assets\Jacob&apos;s Folder\Score.cs" />
+     <Compile Include="Assets\Stan.Lee\Guns\Bullet.cs" />
+     <Compile Include="Assets\Stan.Lee\Guns\GunFire.cs" />
+     <Compile Include="Assets\Stan.Lee\Guns\NewObjectpoolerScript.cs" />
+     <Compile Include="Assets\Stan.Lee\Ship Movement\PlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
