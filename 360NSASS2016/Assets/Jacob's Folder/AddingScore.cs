@@ -6,35 +6,25 @@ public class AddingScore : MonoBehaviour
 
     public Score addingScore;
 
-    [SerializeField]
-    GameObject H10;
+    public GameObject H10;
 
-    [SerializeField]
-    GameObject H20;
+    public GameObject H20;
 
-    [SerializeField]
-    GameObject H30;
+    public GameObject H30;
 
-    [SerializeField]
-    GameObject H40;
+    public GameObject H40;
 
-    [SerializeField]
-    GameObject H50;
+    public GameObject H50;
 
-    [SerializeField]
-    GameObject H60;
+    public GameObject H60;
 
-    [SerializeField]
-    GameObject H70;
+    public GameObject H70;
 
-    [SerializeField]
-    GameObject H80;
+    public GameObject H80;
 
-    [SerializeField]
-    GameObject H90;
+    public GameObject H90;
 
-    [SerializeField]
-    GameObject H100;
+    public GameObject H100;
 
     public PlayerHealth healthScript;
 
@@ -43,10 +33,10 @@ public class AddingScore : MonoBehaviour
     {
         Debug.Log("Much Trigger such Wow");
 
-        if (other.tag == "Player")
+        if (other.tag == "Bullet")
         {
 
-            if (this.gameObject.tag == "Basic")
+            if (this.gameObject.tag == "Baddy")
             {
                 Debug.Log("Trigger Level Basic");
 
@@ -56,7 +46,7 @@ public class AddingScore : MonoBehaviour
 
                 addingScore.currentCombo = addingScore.currentCombo + 1f;
             }
-            if (this.gameObject.tag == "Advanced")
+            if (this.gameObject.tag == "AdvancedBaddy")
             {
                 Debug.Log("Trigger Level Advanced");
 
@@ -66,7 +56,11 @@ public class AddingScore : MonoBehaviour
 
                 addingScore.currentCombo = addingScore.currentCombo + 1f;
             }
-            if (this.gameObject.tag == "Bad")
+        }
+
+        if(other.tag == "Player")
+        {
+            if (this.gameObject.tag == "Baddy" || this.gameObject.tag == "AdvancedBaddy")
             {
                 addingScore.currentCombo = 0;
 
@@ -114,9 +108,10 @@ public class AddingScore : MonoBehaviour
                     H10.SetActive(false);
                     Debug.Break();
                 }
+            }
 
             }
         }
     }
 
-}
+
